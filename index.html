@@ -6,15 +6,18 @@
 	<title>Crystal Collector</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="header">
-		<h1>Crystal Collector</h1>
+	<br>
+		<h1 style="font-family: lobster, cursive">Crystal Collector!</h1>
+		<hr>
 	</div>
-	<div class="instructions">
-		<h3>Here's how you play the game</h3>
+	<br>
+	<br>
+		<h3 style="font-family: stylish">Here's how To Play!</h3>
 		</br>
-		<ol>
+		<ol class="instructions">
             
             <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
             <br>
@@ -30,20 +33,22 @@
                 <li id="yellow">Yellow</li>
                 <br>    
 			</ul>
-            <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+            <li>By clicking on a crystal, you will add a specific amount of points to your total score. (unknown at the time)</li>
             <br>
-            <li>You win the game by matching your total score to the random number.</li>
+            <li>You WIN the game by matching your total score to the random number.</li>
             <br>
-            <li>You lose the game if your total score goes above the random number.</li>
+            <li>You LOSE the game if your total score goes above the random number.</li>
             <br>
             <li>The value of each crystal is hidden from you until you click on it.</li>
             <br>
-            <li>Each time when the game starts, the game will change the values of each crystal.</li>
-            <br>
+			<li>Each time a new game starts, the game will change the values of each crystal. It's ALWAYS a mystery!</li>
+			<hr>
+            
 		</ol>
 	</div>
+<div class="theGame">
 	<div class="numberToMatch">
-		<h2>Number To Get:
+		<h2>Match This Number:
 			<span id= "randomNumber"></span>
 		</h2>
 	</div>
@@ -54,18 +59,28 @@
 			Losses: 
 			<span id= "numberLosses"></span>
 		</h2>
+		<br>
+		<br>
 	</div>
+	<br>
+	<br>
+	<br>
+
+		
 	<div class="gems">
+			
 		<img src="assets/images/blue.png" class=gemPic id="one" alt="Blue Gem">
 		<img src="assets/images/green.png" class=gemPic id="two" alt="Green Gem">
 		<img src="assets/images/red.png" class=gemPic id= "three" alt="Red Gem">
 		<img src="assets/images/yellow.png" class=gemPic id= "four" alt="Yellow Gem">
+	       
 	</div>
-	<div class="userTotal">
-		<h2>Your total score is:
+	
+		<h2 class="userTotal">Your total score is:
 			<span id="finalTotal"></span>
 		</h2>
 	</div>
+</div>	
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>

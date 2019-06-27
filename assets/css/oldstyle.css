@@ -1,0 +1,71 @@
+    
+body{
+	background-image: url("../images/bluepaper.jpg")
+}
+div{
+	background-color: rgb(112, 42, 37);
+	margin: 50px;
+	width: 35%;
+	text-align: center;
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+	text-align: center;
+}
+ol{
+    list-style: decimal inside;
+     
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+div.header, div.gems{
+	background-color: white;
+	margin: 10%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+	
+}
+div.header, div.instructions{
+	width: 50%;
+	float: left;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: right;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+	float: right;
+}
+.gemPic {
+	height: 60px;
+	margin: 10px;
+}
+
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
